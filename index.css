@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    border: 3px solid green;
+    padding: 14px;
+    overflow: hidden;
+    
+
+    
+
+
+}
+
+#area {
+    
+    border: 2px solid royalblue;
+    background-color: blue;
+    width: 41vw;
+    height: 95vh;
+    position: relative;
+    overflow: hidden;
+   
+   
+}
+
+#boss {
+    height: 5vh;
+    width: 3vw;
+    background-color: black;
+    position: absolute;
+    top: 85vh;
+    left: 40vw;
+    border: 1px solid white;
+    
+    
+}
+
+#score
+{
+    position: relative;
+    left: -8%;
+    bottom: 37%;
+    font-size: 4rem;
+    color: brown;
+    border: 2px solid black;
+    
+}
+
+#gameover
+{
+    position: absolute;
+    left: 2vw;
+    font-size: 3vh;
+    top: 50vh;
+    border: 2px solid black  ;
+    display: none;
+}
